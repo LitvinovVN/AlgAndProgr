@@ -20,7 +20,7 @@ int main()
     cout << "decimal: a_dec = " << a_dec << endl;
     printf("hexadecimal: a_dec = %x \n", a_dec);
     printf("octal: a_dec = %o \n", a_dec);
-    cout<<endl;
+    cout << endl;
     
     // Восьмеричная система счисления
     int b_oct = 015;
@@ -28,7 +28,7 @@ int main()
     cout << "decimal: b_oct = " << b_oct << endl;
     printf("hexadecimal: b_oct = %x \n", b_oct);
     printf("octal: b_oct = %o \n", b_oct);
-    cout<<endl;
+    cout << endl;
     
     // Шестнадцатеричная система счисления
     int c_hex = 0x15;
@@ -36,7 +36,7 @@ int main()
     cout << "decimal: c_hex = " << c_hex << endl;
     printf("hexadecimal: c_hex = %x \n", c_hex);
     printf("octal: c_hex = %o \n", c_hex);
-    cout<<endl;
+    cout << endl;
     
     // Двоичная система счисления
     int d_bin = 0b1110;
@@ -44,7 +44,7 @@ int main()
     cout << "decimal: d_bin = " << d_bin << endl;
     printf("hexadecimal: d_bin = %x \n", d_bin);
     printf("octal: d_bin = %o \n", d_bin);
-    cout<<endl;
+    cout << endl;
 
     return 0;
 }
