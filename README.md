@@ -11,7 +11,7 @@
    onlinegdb.com, git, github.com, msys2.org, gcc, g++, Visual Studio, Visual Studio Code, plantuml
 2. Линейный вычислительный процесс
 
-```
+```c++
 #include <iostream>
 using namespace std;
 int main()
