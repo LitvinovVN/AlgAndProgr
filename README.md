@@ -135,6 +135,32 @@ int main()
 }
 ```
 
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int inp, sec, min;
+    
+    cout << "Input seconds: ";
+    cin >> inp;
+    
+    int hours = inp / 3600;
+    int ms = inp % 3600;
+    
+    int minutes = ms / 60;
+    int seconds = ms % 60;
+    
+    cout << hours << " h, " << minutes << " min, " << seconds << " sec." << endl;
+
+    return 0;
+}
+```
+
+
 3. Арифметические операции. Статическая типизация и преобразования типов.
 4. Поразрядные операции. Операции присваивания. Условные выражения.
 5. Конструкция if-else и тернарный оператор. Конструкция switch-case.
