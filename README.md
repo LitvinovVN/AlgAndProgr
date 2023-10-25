@@ -143,18 +143,21 @@ using namespace std;
 
 int main()
 {
-    int inp, sec, min;
+    int inp;
     
     cout << "Input seconds: ";
     cin >> inp;
     
-    int hours = inp / 3600;
-    int ms = inp % 3600;
+    int days = inp / (3600 * 24);
+    int hms = inp % (3600 * 24);
+    
+    int hours = hms / 3600;
+    int ms = hms % 3600;
     
     int minutes = ms / 60;
     int seconds = ms % 60;
     
-    cout << hours << " h, " << minutes << " min, " << seconds << " sec." << endl;
+    cout << days << " days, " << hours << " h, " << minutes << " min, " << seconds << " sec." << endl;
 
     return 0;
 }
