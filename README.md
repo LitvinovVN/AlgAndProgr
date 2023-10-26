@@ -163,6 +163,40 @@ int main()
 }
 ```
 
+Пользователь вводит предыдущие и текущие показания счетчика электроэнергии.
+Рассчитать стоимость потребленной электроэнергии с учетом соц. нормы.
+Соцнорма и тарифы задаются в коде.
+В решении не использовать условные и циклические конструкции - линейный вычислительный процесс.
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //cout << "prev, kWt*ch: ";
+    int prev = 0;
+    //cin >> prev;
+    
+    //cout << "curr, kWt*ch: ";
+    int curr = 200;
+    //cin >> curr;
+    
+    int rashod = curr - prev;
+    int socnorma = 96;
+    int insn = rashod / socnorma; // Кол-во соц. норм в расходе
+    cout << insn << endl;
+    int issocnorma = (insn>0);
+    cout << issocnorma << endl;
+    int oversocnorm = (rashod - socnorma) * issocnorma;// Кол-во сверх соц. нормы
+    
+    cout << oversocnorm << endl;
+
+    return 0;
+}
+```
+
+
 
 3. Арифметические операции. Статическая типизация и преобразования типов.
 4. Поразрядные операции. Операции присваивания. Условные выражения.
