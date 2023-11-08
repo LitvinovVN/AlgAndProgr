@@ -127,6 +127,10 @@ b = 16    = 0b00010000
 a = a ^ b = 0b00011000
 b = b ^ a = 0b00001000
 a = a ^ b = 0b00010000
+
+output:
+a=8 b=16
+a=16 b=8
 */
 
 #include <iostream>
