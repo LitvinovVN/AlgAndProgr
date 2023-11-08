@@ -80,6 +80,15 @@ int main()
 
 в) Построение таблицы истинности для функции xor ("исключающее ИЛИ")
 ```C++
+/*
+output:
+A B res = A xor B
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+*/
+
 #include <iostream>
 
 using namespace std;
