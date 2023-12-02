@@ -21,7 +21,7 @@ int main()
     
     // 3. Создаём одномерный динамический массив из N элементов типа double
     //    и сохраняем указатель на него в переменной ptrArray типа double*
-    double *ptrArray = new double [N];
+    double *ptrArray = new double[N];
     
     // 4. Заполняем массив случайными числами в диапазоне от 1 до 10
     for(int i = 0; i<N; i++)
