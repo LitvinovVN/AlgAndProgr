@@ -1,5 +1,5 @@
-// g++ files_bin_02.cpp -o app
-// ./app
+// g++ files_bin_02.cpp -o app2
+// ./app2
 // Вывести на экран содержимое двоичного файла data.bin, содержащего целое число n и n вещественных чисел
 
 #include <iostream>

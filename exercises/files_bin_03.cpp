@@ -1,5 +1,5 @@
-// g++ files_bin_03.cpp -o app
-// ./app
+// g++ files_bin_03.cpp -o app3
+// ./app3
 // В созданном в задаче files_bin_01.cpp двоичном файле data.bin поменять местами наибольшее и наименьшее из вещественных чисел
 
 #include <iostream>
