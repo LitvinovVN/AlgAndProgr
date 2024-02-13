@@ -49,3 +49,7 @@
 # Контрольные работы
 
 1. [Массивы](kr_arrays.md)
+
+
+# Дополнительные материалы
+1. [github.com Coding Notes and Tutorials](https://github.com/methylDragon/coding-notes)
